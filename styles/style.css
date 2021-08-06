@@ -63,17 +63,20 @@ button:hover{
   background-color: transparent;
   color: var(--clr-white);
 }
-@media (min-width:991px){
+@media (max-width:991px){
   .container{
     display: flex;
     border-radius: 1rem 1rem;
     flex-direction: columns;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 }
-@media (min-width:767px){
+@media (max-width:767px){
   .container{
     align-items: center;
     grid-template-columns: 1fr;
+    justify-content: center;
   }
 }
